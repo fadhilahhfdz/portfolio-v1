@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+
+    <!-- header -->
+    <header class="sticky top-0 z-50">
+      <nav class="navbar bg-white shadow-md flex flex-row justify-between px-16">
+        <div class="p-4">
+          <a href="">
+            <h2 class="text-2xl font-bold text-cyan-700"><span class="text-cyan-900">Fadhilah</span>Hfdz</h2>
+          </a>
+        </div>
+        <div class="nav-list p-5">
+          <input id="menu-toggle" type="checkbox">
+          <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+          </label>
+          <ul class="menu font-semibold flex">
+            <li><a href="#home" class="mx-4 text-cyan-700 hover:text-cyan-900">Home</a></li>
+            <li><a href="#about" class="mx-4 text-cyan-700 hover:text-cyan-900">About</a></li>
+            <li><a href="#skills" class="mx-4 text-cyan-700 hover:text-cyan-900">Skills</a></li>
+            <li><a href="#projects" class="mx-4 text-cyan-700 hover:text-cyan-900">Projects</a></li>
+            <li><a href="#contact" class="mx-4 text-cyan-700 hover:text-cyan-900">Contact</a>
+          </li>
+        </div>
+      </nav>
+    </header>
+    <!-- header -->
+
+    <!-- main -->
+    <main>
+      <section id="home" class="home h-screen p-10 bg-white">
+        <div class="max-w-screen-2xl flex flex-wrap-reverse flex-column justify-around my-14 md:my-24">
+          <div class="my-6 py-5 slide-up">
+            <span class="text-xl font-semibold text-gray-400">Hi There👋</span>
+            <p class="mt-4 text-3xl font-semibold text-cyan-700"><span class="font-semibold text-gray-700">I'M </span>Fadhilah Hafidz Pradana</p>
+            <h3 class="text-2xl font-semibold text-gray-700 mt-1">Informatics Engineering Student</h3>
+            <div class="flex gap-4">
+              <div class="mt-5">
+                <a href="https://drive.google.com/file/d/1zodBnW1mdb3tLJ0jVHmF1Y8kSGClrzLw/view?usp=sharing" target="_blank" class="bg-cyan-700 hover:bg-cyan-900 text-white font-medium py-3 px-5 rounded-md transition ease-in-out duration-300">Download CV</a>
+              </div>
+              <div class="sosial-media mt-2 flex justify-start">
+                <ul class="flex row flex-nowrap justify-center items-center gap-4">
+                    <li class="list-none"><a href="https://www.linkedin.com/in/fadhilahhafidz/" target="_blank" class="text-decoration-none"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="list-none"><a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=fadhilahhafidz010@gmail.com" target="_blank" class="text-decoration-none"><i class="fa fa-envelope"></i></a></li>
+                    <li class="list-none"><a href="https://github.com/fadhilahhfdz" target="_blank" class="text-decoration-none"><i class="fab fa-github"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="profil slide-up">
+            <img class="imgprofil rounded-full" src="assets/img/profile.jpg" width="350px" alt="profil">
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about h-auto p-10 bg-cyan-700 pt-24">
+        <p class="text-center text-3xl font-semibold text-white slide-up">About Me</p>
+        <div class="container flex flex-wrap-reverse flex-column justify-around my-24">
+          <div class=" py-5 w-96">
+            <p class="text-white text-xl mt-6 xl:mt-0 slide-up">Hello everyone!, I am Fadhilah Hafidz Pradana, I am an Informatics Engineering student at Amikom University Yogyakarta. I have a high interest in the world of technology, especially in programming. I am interested becoming a Backend Developer. Currently my expertise in the backend is using the PHP programming language with the Laravel framework, apart from that I also have expertise using HTML, CSS and JavaScript. I am committed to continuing to develop into a reliable Backend Developer.</p>
+          </div>
+          <div class="me">
+            <img class="rounded-md shadow-2xl mt-6 slide-up" src="assets/img/aboutme.jpg" width="300px" alt="me">
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="skill h-auto md:h-auto p-10 bg-white pt-24">
+        <p class="text-center text-3xl font-semibold text-cyan-700 slide-up">Skills</p>
+        <p class="text-3xl font-semibold mt-4 slide-up">TechStack</p>
+        <div class="container w-100 h-100 rounded-md p-1 md:p-5 flex flex-wrap slide-up">
+          <div class="card w-32 h-32 py-3 px-4 m-2 rounded-lg shadow-xl border-4 border-cyan-700 hover:bg-cyan-700 hover:text-white flex flex-col justify-center items-center transition-colors ease-in-out duration-300">
+            <img class="m-2 p-1" src="assets/img/html-5.png" alt="" width="100px">
+          </div>
+          <div class="card w-32 h-32 p-3 m-2 rounded-lg shadow-xl border-4 border-cyan-700 hover:bg-cyan-700 hover:text-white flex flex-col justify-center items-center transition-colors ease-in-out duration-300">
+            <img class="m-2 p-1" src="assets/img/css-3.png" alt="" width="100px">
+          </div>
+          <div class="card w-32 h-32 p-3 m-2 rounded-lg shadow-xl border-4 border-cyan-700 hover:bg-cyan-700 hover:text-white flex flex-col justify-center items-center transition-colors ease-in-out duration-300">
+            <img class="m-2 p-1" src="assets/img/js.png" alt="" width="100px">
+          </div>
+          <div class="card w-32 h-32 p-3 m-2 rounded-lg shadow-xl border-4 border-cyan-700 hover:bg-cyan-700 hover:text-white flex flex-col justify-center items-center transition-colors ease-in-out duration-300">
+            <img class="m-2 p-1" src="assets/img/laravel.png" alt="" width="100px">
+          </div>
+          <div class="card w-32 h-32 p-3 m-2 rounded-lg shadow-xl border-4 border-cyan-700 hover:bg-cyan-700 hover:text-white flex flex-col justify-center items-center transition-colors ease-in-out duration-300">
+            <img class="m-2 p-1" src="assets/img/ci.png" alt="" width="90px">
+          </div>
+          <div class="card w-32 h-32 p-3 m-2 rounded-lg shadow-xl border-4 border-cyan-700 hover:bg-cyan-700 hover:text-white flex flex-col justify-center items-center transition-colors ease-in-out duration-300">
+            <img class="m-2 p-1 my-6" src="assets/img/node.svg" alt="" width="110px">
+          </div>
+          <div class="card w-32 h-32 p-3 m-2 rounded-lg shadow-xl border-4 border-cyan-700 hover:bg-cyan-700 hover:text-white flex flex-col justify-center items-center transition-colors ease-in-out duration-300">
+            <img class="m-2 p-1 my-6" src="assets/img/express.png" alt="" width="100px">
+          </div>
+          <div class="card w-32 h-32 p-3 m-2 rounded-lg shadow-xl border-4 border-cyan-700 hover:bg-cyan-700 hover:text-white flex flex-col justify-center items-center transition-colors ease-in-out duration-300">
+            <img class="m-2 p-1" src="assets/img/react.png" alt="" width="100px">
+          </div>
+          <div class="card w-32 h-32 p-3 m-2 rounded-lg shadow-xl border-4 border-cyan-700 hover:bg-cyan-700 hover:text-white flex flex-col justify-center items-center transition-colors ease-in-out duration-300">
+            <img class="m-2 p-1" src="assets/img/tailwind.png" alt="" width="100px">
+          </div>
+          <div class="card w-32 h-32 p-3 m-2 rounded-lg shadow-xl border-4 border-cyan-700 hover:bg-cyan-700 hover:text-white flex flex-col justify-center items-center transition-colors ease-in-out duration-300">
+            <img class="m-2 p-1" src="assets/img/bootstrap.png" alt="" width="100px">
+          </div>
+        </div>
+        <p class="text-3xl font font-semibold slide-up">Tools</p>
+        <div class="container w-100 h-100 rounded-md p-1 md:p-5 flex flex-wrap slide-up">
+          <div class="card w-32 h-32 p-3 m-2 rounded-lg shadow-xl border-4 border-cyan-700 hover:bg-cyan-700 hover:text-white flex flex-col justify-center items-center transition-colors ease-in-out duration-300">
+            <img class="m-2 p-1" src="assets/img/vscode.png" alt="" width="100px">
+          </div>
+          <div class="card w-32 h-32 p-3 m-2 rounded-lg shadow-xl border-4 border-cyan-700 hover:bg-cyan-700 hover:text-white flex flex-col justify-center items-center transition-colors ease-in-out duration-300">
+            <img class="m-2 p-1" src="assets/img/git.png" alt="" width="100px">
+          </div>
+          <div class="card w-32 h-32 p-3 m-2 rounded-lg shadow-xl border-4 border-cyan-700 hover:bg-cyan-700 hover:text-white flex flex-col justify-center items-center transition-colors ease-in-out duration-300">
+            <img class="m-2 p-1" src="assets/img/github.png" alt="" width="100px">
+          </div>
+          <div class="card w-32 h-32 p-3 m-2 rounded-lg shadow-xl border-4 border-cyan-700 hover:bg-cyan-700 hover:text-white flex flex-col justify-center items-center transition-colors ease-in-out duration-300">
+            <img class="m-2 p-1" src="assets/img/mysql.png" alt="" width="100px">
+          </div>
+          <div class="card w-32 h-32 p-3 m-2 rounded-lg shadow-xl border-4 border-cyan-700 hover:bg-cyan-700 hover:text-white flex flex-col justify-center items-center transition-colors ease-in-out duration-300">
+            <img class="m-2 p-1" src="assets/img/figma.png" alt="" width="100px">
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="projects h-auto p-10 bg-cyan-700 pt-24">
+        <p class="text-center text-3xl font-semibold text-white slide-up">My Projects</p>
+        <div class="container w-100 h-100 rounded-md px-5 py-7 flex flex-wrap gap-4 justify-center slide-up">
+          <div class="w-96 bg-white shadow-lg rounded-lg">
+            <img class="w-full p-3 rounded-2xl h-56 object-cover object-center" src="assets/img/restful.jpg" alt="Restful API">
+            <div class="p-4">
+                <h1 class="text-gray-900 font-bold text-xl mb-2">Restful API User</h1>
+                <p class="text-gray-700 text-base">Create a Restful API user using Express JS and React JS</p>
+                <div class="mt-4 flex">
+                  <a href="https://github.com/fadhilahhfdz/frontend-Express-React.git" target="_blank" class="bg-cyan-700 hover:bg-cyan-900 text-white py-2 px-4 rounded">Github</a>
+                </div>
+            </div>
+          </div>
+          <div class="w-96 bg-white shadow-lg rounded-lg overflow-hidden">
+            <img class="w-full p-3 rounded-2xl h-56 object-cover object-center" src="assets/img/pos.jpg" alt="pos">
+            <div class="p-4">
+                <h1 class="text-gray-900 font-bold text-xl mb-2">POS Ginastel</h1>
+                <p class="text-gray-700 text-base">Create Website Application Point of Sales UMKM Teh Ginastel</p>
+                <div class="mt-4 flex">
+                  <a href="https://github.com/fadhilahhfdz/POS-Ginastel" target="_blank" class="bg-cyan-700 hover:bg-cyan-900 text-white py-2 px-4 rounded">Github</a>
+                </div>
+            </div>
+          </div>
+          <div class="w-96 bg-white shadow-lg rounded-lg overflow-hidden">
+            <img class="w-full p-3 rounded-2xl h-56 object-cover object-center" src="assets/img/pungsari.jpg" alt="pungsari">
+            <div class="p-4">
+                <h1 class="text-gray-900 font-bold text-xl mb-2">Website Pungsari Plupuh</h1>
+                <p class="text-gray-700 text-base">Create a website Pungsari Plupuh using framework Laravel 10</p>
+                <div class="mt-4 flex">
+                  <a href="https://pungsari-plupuh.desa.id/" target="_blank" class="bg-cyan-700 hover:bg-cyan-900 text-white py-2 px-4 rounded">Preview</a>
+                </div>
+            </div>
+          </div>
+          <div class="w-96 bg-white shadow-lg rounded-lg overflow-hidden">
+            <img class="w-full p-3 rounded-2xl h-56 object-cover object-center" src="assets/img/barang.jpg" alt="Manajemen Barang">
+            <div class="p-4">
+                <h1 class="text-gray-900 font-bold text-xl mb-2">Microservice Manajemen Barang</h1>
+                <p class="text-gray-700 text-base">Create an item management application using microservice architecture</p>
+                <div class="mt-4 flex">
+                  <a href="https://github.com/fadhilahhfdz/react-microservices-frontend.git" target="_blank" class="bg-cyan-700 hover:bg-cyan-900 text-white py-2 px-4 rounded">Github</a>
+                </div>
+            </div>
+          </div>
+          <div class="w-96 bg-white shadow-lg rounded-lg overflow-hidden">
+            <img class="w-full p-3 rounded-2xl h-56 object-cover object-center" src="assets/img/porto.jpg" alt="portfolio">
+            <div class="p-4">
+                <h1 class="text-gray-900 font-bold text-xl mb-2">Personal Portfolio</h1>
+                <p class="text-gray-700 text-base">Create a personal portfolio using HTML and framework CSS Tailwind</p>
+                <div class="mt-4 flex">
+                  <a href="" target="_blank" class="bg-cyan-700 hover:bg-cyan-900 text-white py-2 px-4 rounded">Preview</a>
+                </div>
+            </div>
+          </div>
+          <div class="w-96 bg-white shadow-lg rounded-lg overflow-hidden">
+            <img class="w-full p-3 rounded-2xl h-56 object-cover object-center" src="assets/img/poke.jpg" alt="pokemon">
+            <div class="p-4">
+                <h1 class="text-gray-900 font-bold text-xl mb-2">PokeBook</h1>
+                <p class="text-gray-700 text-base">Create a pokemon information website using React JS and pokemon API</p>
+                <div class="mt-4 flex">
+                  <a href="https://fadhilahhfdz-pokebook.vercel.app/" target="_blank" class="bg-cyan-700 hover:bg-cyan-900 text-white py-2 px-4 rounded">Preview</a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <a href="https://github.com/fadhilahhfdz" target="_blank" class="hover:shadow-2xl text-cyan-700 bg-white font-medium py-2 px-4 rounded transition ease-in-out duration-300">View More Projects On Github</a>
+        </div>
+      </section>
+      <section id="contact" class="contact h-auto p-10 bg-white pt-24">
+        <p class="text-center text-3xl font-semibold text-cyan-700 slide-up">Contact Me</p>
+        <p class="text-3xl font-semibold my-16 text-cyan-700 slide-up">Let's Talk About Next Projects 👇</p>
+        <div class="container w-100 h-100 mb-16 flex flex-wrap justify-around slide-up">
+          <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=fadhilahhafidz010@gmail.com" target="_blank">
+            <div class="cards w-80 md:w-96 h-28 rounded-md shadow-xl hover:shadow-2xl transition ease-in-out duration-300 border-4 border-cyan-700 my-5 p-2 flex">
+              <div>
+                <img class="w-20 my-5 md:my-0" src="assets/img/email.png" alt="gmail">
+              </div>
+              <div class="ml-3 mb-3 mt-2">
+                <p class="text-xl font-semibold">Gmail</p>
+                <p class="text-gray-400">fadhilahhafidz010@gmail.com</p>
+                <p class="font-semibold text-cyan-700">Send Message</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://t.me/+6281234982153/" target="_blank">
+            <div class="cards w-80 md:w-96 h-28 rounded-md shadow-xl hover:shadow-2xl transition ease-in-out duration-300 border-4 border-cyan-700 my-5 p-2 flex">
+              <div>
+                <img class="" src="assets/img/tele.png" alt="telegram" width="80px">
+              </div>
+              <div class="ml-3 mb-3 mt-2">
+                <p class="text-xl font-semibold">Telegram</p>
+                <p class="text-gray-400">+6281234982153</p>
+                <p class="font-semibold text-cyan-700">Send Message</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://wa.me/6281234982153/" target="_blank">
+            <div class="cards w-80 md:w-96 h-28 rounded-md shadow-xl hover:shadow-2xl transition ease-in-out duration-300 border-4 border-cyan-700 my-5 p-2 flex">
+              <div>
+                <img class="" src="assets/img/wa.png" alt="whatsapp" width="80px">
+              </div>
+              <div class="ml-3 mb-3 mt-2">
+                <p class="text-xl font-semibold">Whatsapp</p>
+                <p class="text-gray-400">+6281234982153</p>
+                <p class="font-semibold text-cyan-700">Send Message</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- main -->
+
+    <!-- footer -->
+    <footer>
+      <div class="bg-cyan-700 h-28">
+        <div class="sosmed-footer pt-4 md:pt-5 mb-1 flex justify-center">
+          <ul class="flex row flex-nowrap justify-center items-center gap-4">
+              <li class="list-none"><a href="https://www.linkedin.com/in/fadhilahhafidz/" target="_blank" class="text-decoration-none"><i class="fab fa-linkedin"></i></a></li>
+              <li class="list-none"><a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=fadhilahhafidz010@gmail.com" target="_blank" class="text-decoration-none"><i class="fa fa-envelope"></i></a></li>
+              <li class="list-none"><a href="https://github.com/fadhilahhfdz" target="_blank" class="text-decoration-none"><i class="fab fa-github"></i></a></li>
+          </ul>
+        </div>
+        <p class="text-center text-white text-xs md:text-sm">&#169; 2024 Created By Fadhilah Hafidz Pradana, All Rights Reserved</p>
+      </div>
+    </footer>
+    <!-- footer -->
+    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
